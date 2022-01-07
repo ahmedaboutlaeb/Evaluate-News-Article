@@ -1,0 +1,56 @@
+form {
+    border: 1px solid #545454;
+    border-radius: 3px;
+    padding: 40px;
+}
+
+input {
+    padding: 5px 20px;
+    width: 100%;
+    line-height: 16px;
+    margin: 10px 0;
+    font-size: larger;
+    border-radius: 10px;
+
+}
+button{
+    padding: 10px;
+    background-color: turquoise;
+    color:white;
+    font-size: larger;
+    border-radius: 10px;
+    border:none;
+
+    
+
+
+}
+button:hover{
+ 
+    border :1px solid white
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    gap:10px;
+
+}
+p{
+   margin-top: 10px;
+    
+}
+.info{
+    font-size: xx-large;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 10px;
+
+    margin-bottom: 10px;
+}
+.title{
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+   margin-top: 1rem;
+}
