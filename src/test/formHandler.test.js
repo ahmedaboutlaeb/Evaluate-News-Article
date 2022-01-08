@@ -1,13 +1,13 @@
-import { handleSubmit } from '../client/js/formHandler'
+import { submitHandeler } from '../client/js/formHandler'
 
 
-describe('Test, the function "handleSubmit()" should exist' , () => {
+describe('Test, the function "submitHandeler()" should exist' , () => {
     test('It should return true', async () => {
-        expect(handleSubmit).toBeDefined();
+        expect(submitHandeler).toBeDefined();
     });
 });
-describe('Test, the function "handleSubmit()" should be a function' , () => {
+describe('Test, the function "submitHandeler()" should be a function' , () => {
     test('It should be a function', async () => {
-        expect(typeof handleSubmit).toBe("function");
+        expect(typeof submitHandeler).toBe("function");
     });
 });
