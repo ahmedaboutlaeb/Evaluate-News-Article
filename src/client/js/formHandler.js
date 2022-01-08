@@ -1,4 +1,4 @@
-
+import 'regenerator-runtime/runtime'
 import {checkUrl} from './urlChecker'
 let text = document.getElementById("text");
 let agreement = document.getElementById("agreement");
